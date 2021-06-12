@@ -1,6 +1,6 @@
 import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
-import * as BookstoreBackend from '../lib/bookstore-backend-stack';
+import * as BookstoreBackend from '../infra/bookstore-backend-stack';
 
 test('Empty Stack', () => {
     const app = new cdk.App();

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
-import { BookstoreBackendStack } from '../lib/bookstore-backend-stack';
+import { BookstoreBackendStack } from './bookstore-backend-stack';
 
 const app = new cdk.App();
 new BookstoreBackendStack(app, 'BookstoreBackendStack', {
