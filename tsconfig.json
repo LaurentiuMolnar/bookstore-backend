@@ -23,7 +23,8 @@
       "@common/*": [
         "./common/*"
       ]
-    }
+    },
+    "esModuleInterop": true,
   },
   "exclude": ["cdk.out"]
 }
